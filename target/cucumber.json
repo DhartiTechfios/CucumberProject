@@ -1,0 +1,202 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "user is on Techfios Webpage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 444604200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Techfios Webpage",
+            "match": {
+              "location": "BlueBackgroundDefination.user_is_on_Techfios_Webpage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3455892500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BlueBackgroundDefination.beforeRun()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Sky Blue Background",
+        "description": "",
+        "id": "sky-background-color-validation;sky-blue-background",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 59908400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"Set SkyBlue Background\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Set SkyBlue Background",
+                  "offset": 1
+                }
+              ],
+              "location": "BlueBackgroundDefination.button_exists(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54713700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the button",
+            "match": {
+              "location": "BlueBackgroundDefination.i_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "BlueBackgroundDefination.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Scenario1"
+          }
+        ]
+      }
+    ],
+    "name": "Sky Background Color Validation",
+    "description": "",
+    "id": "sky-background-color-validation",
+    "keyword": "Feature",
+    "uri": "features/SkyBackground.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "user is on Techfios Webpage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 817652800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on Techfios Webpage",
+            "match": {
+              "location": "BlueBackgroundDefination.user_is_on_Techfios_Webpage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3202788400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BlueBackgroundDefination.beforeRun()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "White Background Change",
+        "description": "",
+        "id": "sky-background-color-validation;white-background-change",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28887300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"Set SkyWhite Background\" button is exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Set SkyWhite Background",
+                  "offset": 1
+                }
+              ],
+              "location": "BlueBackgroundDefination.button_is_exists(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35326400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click the button",
+            "match": {
+              "location": "BlueBackgroundDefination.i_click_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the background color will change to white",
+            "match": {
+              "location": "BlueBackgroundDefination.the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Scenario2"
+          }
+        ]
+      }
+    ],
+    "name": "Sky Background Color Validation",
+    "description": "",
+    "id": "sky-background-color-validation",
+    "keyword": "Feature",
+    "uri": "features/WhiteBackground.feature"
+  }
+]
